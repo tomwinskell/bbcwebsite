@@ -1,0 +1,35 @@
+@media all and (max-width: 1000px) {
+  .mobile-nav, .mobile-line {
+    display: none;
+  }
+  
+  .headline-container {
+      margin-top: 80px;
+    }
+
+    .headline-container .three-column {
+      flex-wrap: wrap;
+    }
+
+    .headline-container .overflow-container {
+      flex: 1 1 100%;
+      display: grid ;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+.overflow-container .line {
+      display: none;
+    }
+
+}
+
+@media all and (max-width: 600px) {
+  .register-button {
+    display: none;
+  }
+
+  .signin-button {
+    display: none;
+  }
+}

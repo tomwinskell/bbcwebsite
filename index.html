@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheets/main.css" />
+    <link rel="stylesheet" href="stylesheets/overlay.css" />
+    <link rel="stylesheet" href="stylesheets/mobile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>BBC News</title>
+  </head>
+  <body>
+    <div class="overlay-section">
+      <header class="three-column header-section">
+        <div class="column left-column">
+          <div
+            class="content-item clickable-div"
+            onclick="window.location.href='./'"
+          >
+            <img
+              src="/assets/images/burger-bar.png"
+              alt="navigation menu"
+              class="header-img menu-icon"
+            />
+          </div>
+          <div
+            class="content-item clickable-div"
+            onclick="window.location.href='./'"
+          >
+            <img
+              src="/assets/images/magnifying-glass.png"
+              alt="search icon"
+              class="header-img search-icon"
+            />
+          </div>
+        </div>
+
+        <div
+          class="column middle-column clickable-div"
+          onclick="window.location.href='./'"
+        >
+          <svg width="100" height="30" xmlns="http://www.w3.org/2000/svg">
+            <rect width="100" height="30" fill="transparent" />
+            <rect x="0" y="0" width="30" height="30" fill="black" />
+            <rect x="35" y="0" width="30" height="30" fill="black" />
+            <rect x="70" y="0" width="30" height="30" fill="black" />
+            <text
+              x="15"
+              y="15"
+              font-family="Arial, sans-serif"
+              font-size="20"
+              font-weight="bold"
+              fill="white"
+              text-anchor="middle"
+              dominant-baseline="central"
+            >
+              B
+            </text>
+            <text
+              x="50"
+              y="15"
+              font-family="Arial, sans-serif"
+              font-size="20"
+              font-weight="bold"
+              fill="white"
+              text-anchor="middle"
+              dominant-baseline="central"
+            >
+              B
+            </text>
+            <text
+              x="85"
+              y="15"
+              font-family="Arial, sans-serif"
+              font-size="20"
+              font-weight="bold"
+              fill="white"
+              text-anchor="middle"
+              dominant-baseline="central"
+            >
+              C
+            </text>
+          </svg>
+        </div>
+
+        <div class="column right-column">
+          <div class="content-item">
+            <button class="register-button" type="button">Register</button>
+          </div>
+          <div class="content-item">
+            <button class="signin-button" type="button">Sign In</button>
+          </div>
+        </div>
+      </header>
+
+      <div class="line mobile-line"></div>
+
+      <nav class="main-nav mobile-nav">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Sport</a></li>
+          <li><a href="#">Reel</a></li>
+          <li><a href="#">Worklife</a></li>
+          <li><a href="#">Travel</a></li>
+          <li><a href="#">Future</a></li>
+          <li><a href="#">Culture</a></li>
+          <li><a href="#">TV</a></li>
+          <li><a href="#">Weather</a></li>
+          <li><a href="#">More</a></li>
+        </ul>
+      </nav>
+
+      <div class="line"></div>
+    </div>
+
+    <div class="headline-container">
+      <section class="three-column">
+        <div class="column left-column">
+          <div
+            class="content-item headline clickable-div"
+            onclick="window.location.href='./'"
+          >
+            <img src="assets/images/trump.jpeg" alt="" />
+            <h2>
+              Trump holds press conference after declining further debates
+            </h2>
+            <p>
+              Republican candidate Donald Trump is holding a press conference
+              outside of Los Angeles, one day after announcing he would not
+              debate again.
+            </p>
+            <div class="headline-footer"><h3>1 day ago | US & Canada</h3></div>
+            <div class="line"></div>
+          </div>
+
+          <div
+            class="content-item headline clickable-div"
+            onclick="window.location.href='./'"
+          >
+            <img src="./assets/images/iran.jpeg" alt="" />
+            <h2>'Lashed for a social media photo' in Iran</h2>
+            <p>
+              Women tell how their posts are being spied on, two years after
+              Mahsa Amini's death rocked Iran.
+            </p>
+            <div class="headline-footer"><h3>1 day ago | Middle East</h3></div>
+          </div>
+        </div>
+        <div class="column middle-column">
+          <div
+            class="content-item headline clickable-div"
+            onclick="window.location.href='./'"
+          >
+            <img src="./assets/images/hezbollah.jpeg" alt="Keir Starmer" />
+            <h1>
+              <span class="flashing-dot-container">
+                <span class="flashing-dot"></span>
+                <span class="flashing-dot-border"></span>
+              </span>
+              <span class="live-text">LIVE</span>
+              <span class="underline-on-hover"
+                >IDF carries out Beirut air strike, after Hezbollah fires
+                rockets into Israel</span
+              >
+            </h1>
+
+            <p>
+              Alarms sound in northern Israel as the Iran-backed group says it
+              is targeting Israeli army sites.
+            </p>
+          </div>
+          <div class="padding-block-20"></div>
+          <div class="headline-links">
+            <ul>
+              <li>
+                <h4>
+                  <a href="#"
+                    >What we know about the Hezbollah device explosions</a
+                  >
+                </h4>
+              </li>
+              <li>
+                <h4>
+                  <a href="#"
+                    >Taiwan says it did not make Hezbollah pager parts</a
+                  >
+                </h4>
+              </li>
+              <li>
+                <h4>
+                  <a href="#">
+                    Surgeon 'became robotic' to treat sheer volume of wounded
+                    Lebanese
+                  </a>
+                </h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column right-column overflow-container">
+          <div
+            class="content-item headline clickable-div"
+            onclick="window.location.href='./'"
+          >
+            <h2>Rupert Murdoch's 'Succession' court battle begins</h2>
+            <p>
+              The court battle will determine the future of the billionaire's
+              media empire.
+            </p>
+            <div class="headline-footer"><h3>23 hrs ago | Business</h3></div>
+            <div class="line"></div>
+          </div>
+          <div
+            class="content-item headline clickable-div"
+            onclick="window.location.href='./'"
+          >
+            <h2>Reunions, politics and dogs: Eight Emmys highlights</h2>
+            <p>
+              The West Wing cast reunited and John Oliver paid tribute to his
+              dog at Sunday's Emmy Awards in LA.
+            </p>
+            <div class="headline-footer"><h3>1 day ago | Culture</h3></div>
+            <div class="line"></div>
+          </div>
+          <div
+            class="content-item headline clickable-div"
+            onclick="window.location.href='./'"
+          >
+            <h2>Jackson 5 singer Tito Jackson dead at 70</h2>
+            <p>
+              Tito was an original member of the Jackson Five pop group and
+              brother of the late Michael Jackson.
+            </p>
+            <div class="headline-footer">
+              <h3>1 day ago | US & Canada</h3>
+            </div>
+            <div class="line"></div>
+          </div>
+          <div
+            class="content-item headline clickable-div"
+            onclick="window.location.href='./'"
+          >
+            <h2>
+              Justin Trudeau's sinking popularity puts him on shaky ground
+            </h2>
+            <p>
+              In his ninth year in office, Justin Trudeau's Liberals face a
+              frustrated electorate - and some crucial tests.
+            </p>
+            <div class="headline-footer">
+              <h3>1 day ago | US & Canada</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="padding-block-20"></div>
+      <div class="bold-line"></div>
+
+      <div class="h2-container"><h2>Only from the BBC</h2></div>
+      <div class="padding-block-20"></div>
+
+      <section class="two-column">
+        <div class="column left-column">
+          <div
+            class="content-item headline clickable-div"
+            onclick="window.location.href='./'"
+          >
+            <img
+              src="./assets/images/katy-perry.jpeg"
+              alt="Description of image 1"
+            />
+            <h2>Why Katy Perry's comeback has gone so wrong</h2>
+            <p>
+              She was one of the world's biggest pop stars - but her new album
+              has been plagued by controversy and failed singles. Here's why
+              she's stumbled - and what it says about music today.
+            </p>
+            <div class="headline-footer"><h3>4 hrs ago | Culture</h3></div>
+          </div>
+        </div>
+        <div class="column right-column">
+          <div
+            class="content-item headline clickable-div"
+            onclick="window.location.href='./'"
+          >
+            <img
+              src="./assets/images/vienna.jpeg"
+              alt="Description of image 2"
+            />
+            <h2>How Vienna prepared itself for a 5,000-year flood</h2>
+            <p>
+              These flood defences helped Austria's capital fight Storm Boris.
+            </p>
+            <div class="headline-footer"><h3>2 hrs ago | Future</h3></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
